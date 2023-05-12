@@ -1,5 +1,7 @@
+import Hero from "./components/Hero";
+
 function App() {
-  return <div>QUIZ</div>;
+  return <Hero></Hero>;
 }
 
 export default App;
