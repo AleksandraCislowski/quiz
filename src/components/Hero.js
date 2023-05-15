@@ -24,7 +24,7 @@ export default Hero;
 const StyledBox = styled(Box)`
   max-width: 700px;
   padding: 1rem;
-  margin: 1rem;
+  margin: 3rem;
   height: 80vh;
   display: flex;
   justify-content: center;
