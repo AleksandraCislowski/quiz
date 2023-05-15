@@ -1,20 +1,21 @@
 import styled from "@emotion/styled";
 import { Box, Button, Typography } from "@mui/material";
+import p1 from "./pictures/p1.jpg";
 
 const Hero = () => {
   return (
-    <StyledBox2>
-      <StyledBox>
-        <Typography variant='h2' color='primary'>
-          Welcome to QuizME!
-        </Typography>
-        <Typography variant='subtitle1'>
-          Answer the following questions to learn which mythical creature suit
-          you the best!
-        </Typography>
-      </StyledBox>
-      <Button variant='contained'>Let's get started!</Button>
-    </StyledBox2>
+    <StyledBox sx={{ backgroundImage: `url(${p1})` }}>
+      <Typography variant='h2' color='primary' sx={{ m: 2 }}>
+        Welcome to QuizME!
+      </Typography>
+      <Typography variant='subtitle1' color='white'>
+        Answer the following questions to learn which mythical creature suit you
+        the best!
+      </Typography>
+      <Button variant='contained' sx={{ m: 2 }}>
+        Let's get started!
+      </Button>
+    </StyledBox>
   );
 };
 
@@ -22,19 +23,16 @@ export default Hero;
 
 const StyledBox = styled(Box)`
   max-width: 700px;
-  height: 200px;
-  background-color: azure;
   padding: 1rem;
   margin: 1rem;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-`;
-
-const StyledBox2 = styled(Box)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
 `;

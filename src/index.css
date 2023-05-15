@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(189, 243, 255);
 }
 
 code {
