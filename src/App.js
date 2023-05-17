@@ -24,6 +24,10 @@ function App() {
   };
 
   const resetQuiz = () => {
+    setA(0);
+    setB(0);
+    setC(0);
+    setD(0);
     setPageNumber(-1);
   };
 
@@ -39,7 +43,11 @@ function App() {
           </>
         ))}
       </>
-      <>{pageNumber === quiz.length && <Result resetQuiz={resetQuiz} />}</>
+      <>
+        {pageNumber === quiz.length && (
+          <Result resetQuiz={resetQuiz} a={a} b={b} c={c} d={d} />
+        )}
+      </>
     </>
   );
 }
