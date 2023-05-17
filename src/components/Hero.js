@@ -1,8 +1,9 @@
+import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { Box, Button, Typography } from "@mui/material";
 import p1 from "./pictures/p1.jpg";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <StyledBox sx={{ backgroundImage: `url(${p1})` }}>
       <Typography variant='h2' color='primary' sx={{ m: 2 }}>
@@ -12,7 +13,7 @@ const Hero = () => {
         Answer the following questions to learn which mythical creature suit you
         the best!
       </Typography>
-      <Button variant='contained' sx={{ m: 2 }}>
+      <Button variant='contained' sx={{ m: 2 }} onClick={props.pageNumberUp}>
         Let's get started!
       </Button>
     </StyledBox>
