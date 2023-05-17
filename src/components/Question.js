@@ -2,7 +2,13 @@ const Question = (props) => {
   return (
     <div>
       <p>{props.question.question}</p>
-      <button onClick={props.pageNumberUp}>Next</button>
+      <div>
+        {props.question.choices.map((option) => (
+          <button onClick={() => props.answer(option.key)}>
+            {option.text}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

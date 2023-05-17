@@ -6,6 +6,18 @@ import Result from "./components/Result";
 
 function App() {
   const [pageNumber, setPageNumber] = useState(-1);
+  const [a, setA] = useState(0);
+  const [b, setB] = useState(0);
+  const [c, setC] = useState(0);
+  const [d, setD] = useState(0);
+
+  const answer = (option) => {
+    if (option === "A") setA(a + 1);
+    if (option === "B") setB(b + 1);
+    if (option === "C") setC(c + 1);
+    if (option === "D") setD(d + 1);
+    pageNumberUp();
+  };
 
   const pageNumberUp = () => {
     setPageNumber(pageNumber + 1);
@@ -22,7 +34,7 @@ function App() {
         {quiz.map((question, index) => (
           <>
             {pageNumber === index && (
-              <Question question={question} pageNumberUp={pageNumberUp} />
+              <Question question={question} answer={answer} />
             )}
           </>
         ))}
