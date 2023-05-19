@@ -1,12 +1,14 @@
+import { Button, Typography } from "@mui/material";
+
 const Question = (props) => {
   return (
     <div>
-      <p>{props.question.question}</p>
+      <Typography variant='subtitle1'>{props.question.question}</Typography>
       <div>
         {props.question.choices.map((option) => (
-          <button onClick={() => props.answer(option.key)}>
+          <Button variant='text' onClick={() => props.answer(option.key)}>
             {option.text}
-          </button>
+          </Button>
         ))}
       </div>
     </div>
