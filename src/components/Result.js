@@ -119,7 +119,7 @@ const Result = (props) => {
 export default Result;
 
 const StyledBox = styled(Box)`
-  max-width: 700px;
+  width: 600px;
   padding: 1rem;
   margin: 3rem;
   height: 80vh;
