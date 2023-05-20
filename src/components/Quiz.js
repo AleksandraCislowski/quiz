@@ -1,33 +1,50 @@
 export const quiz = [
   {
-    question:
-      "1111Which function is used to serialize an object into a JSON string in Javascript?",
+    question: "What is your favorite color?",
     choices: [
-      { key: "A", text: "stringify" },
-      { key: "B", text: "parse" },
-      { key: "C", text: "convert" },
-      { key: "D", text: "None of the above" },
+      { key: "A", text: "blue" },
+      { key: "B", text: "pink" },
+      { key: "C", text: "red" },
+      { key: "D", text: "green" },
     ],
   },
   {
-    question:
-      "22222Which function is used to serialize an object into a JSON string in Javascript?",
+    question: "What adjective describes you best?",
     choices: [
-      { key: "A", text: "stringify" },
-      { key: "B", text: "parse" },
-      { key: "C", text: "convert" },
-      { key: "D", text: "None of the above" },
+      { key: "A", text: "kind" },
+      { key: "B", text: "deceptive" },
+      { key: "C", text: "brave" },
+      { key: "D", text: "free" },
     ],
   },
 
   {
-    question:
-      "33333Which functiowretryutiyoupi[o]pn is used to serialize an object into a JSON string in Javascript?",
+    question: "What are you like?",
     choices: [
-      { key: "A", text: "stringify" },
-      { key: "B", text: "parse" },
-      { key: "C", text: "convert" },
-      { key: "D", text: "None of the above" },
+      { key: "A", text: "optimistic" },
+      { key: "B", text: "pessimistic" },
+      { key: "C", text: "realistic" },
+      { key: "D", text: "it depends on the situation" },
+    ],
+  },
+
+  {
+    question: "What adjective describes you best?",
+    choices: [
+      { key: "A", text: "noble" },
+      { key: "B", text: "righteous" },
+      { key: "C", text: "fearless" },
+      { key: "D", text: "courageous" },
+    ],
+  },
+
+  {
+    question: "What is your favorite element?",
+    choices: [
+      { key: "A", text: "earth" },
+      { key: "B", text: "water" },
+      { key: "C", text: "fire" },
+      { key: "D", text: "air" },
     ],
   },
 ];
