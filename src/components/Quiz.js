@@ -2,8 +2,8 @@ export const quiz = [
   {
     question: "What is your favorite color?",
     choices: [
-      { key: "A", text: "blue" },
-      { key: "B", text: "pink" },
+      { key: "A", text: "pink" },
+      { key: "B", text: "blue" },
       { key: "C", text: "red" },
       { key: "D", text: "green" },
     ],
