@@ -21,41 +21,41 @@ const Result = (props) => {
       if (winners[0] === "A")
         return (
           <StyledBox sx={{ backgroundImage: `url(${unicorn})` }}>
-            <h1>UNICORN</h1>
+            <Typography variant='h3'>UNICORN</Typography>
             <StyledBox3>
-              <p>
+              <Typography variant='subtitle1'>
                 The Unicorn is a highly intelligent creature described as
                 outgoing, energetic, and smart – a unique wild horse. It is seen
                 as a symbol of chastity, purity, grace, peace and tranquillity.
                 Unicorns, if left undisturbed, are immortal and will never
                 perish from old age. Its horn was described as having the power
                 to render poisoned water potable and to heal sickness.
-              </p>
+              </Typography>
             </StyledBox3>
           </StyledBox>
         );
       if (winners[0] === "B")
         return (
           <StyledBox sx={{ backgroundImage: `url(${mermaid})` }}>
-            <h1>Mermaid</h1>
+            <Typography variant='h3'>MERMAID</Typography>
             <StyledBox3>
-              <p>
+              <Typography variant='subtitle1'>
                 These headstrong creatures crave the freedom that the sea
                 provides, swimming where they please, whenever they choose.
                 Their fierce independence and refusal to conform are combined
                 with a headstrong personality. Mermaids hold steadfastly to
                 their values and won't compromise when it comes to how they live
                 their lives.
-              </p>
+              </Typography>
             </StyledBox3>
           </StyledBox>
         );
       if (winners[0] === "C")
         return (
           <StyledBox sx={{ backgroundImage: `url(${dragon})` }}>
-            <h1>DRAGON</h1>
+            <Typography variant='h3'>DRAGON</Typography>
             <StyledBox3>
-              <p>
+              <Typography variant='subtitle1'>
                 Dragons are renowned for their magical abilities, which differ
                 depending on what part of the world you're in. They are thought
                 to have blood with magical properties, the ability to breathe
@@ -63,16 +63,16 @@ const Result = (props) => {
                 wisdom. They are charismatic, intelligent, confident, powerful
                 and naturally lucky and gifted. In everything that they do, they
                 tend to do it to the best of their ability with high standards.
-              </p>
+              </Typography>
             </StyledBox3>
           </StyledBox>
         );
       if (winners[0] === "D")
         return (
           <StyledBox sx={{ backgroundImage: `url(${satyr})` }}>
-            <h1>CENTAUR</h1>
+            <Typography variant='h3'>SATYR</Typography>
             <StyledBox3>
-              <p>
+              <Typography variant='subtitle1'>
                 Satyrs were characterized by their ribaldry and were known as
                 lovers of wine, music, dancing, and women. In Roman culture
                 satyrs were known as fauns, but were described as being friendly
@@ -80,16 +80,16 @@ const Result = (props) => {
                 their worst they're selfish and cruel. Most satyrs simply wander
                 wherever their whims take them, following impulses and living
                 off the land. When they congregate, it's usually for a “revel”.
-              </p>
+              </Typography>
             </StyledBox3>
           </StyledBox>
         );
     } else {
       return (
         <StyledBox sx={{ backgroundImage: `url(${pegasus})` }}>
-          <h1>PEGASUS</h1>
+          <Typography variant='h3'>PEGASUS</Typography>
           <StyledBox3>
-            <p>
+            <Typography variant='subtitle1'>
               Pegasus was represented as a goodhearted, gentle creature,
               somewhat naive but always eager to help. For his service and
               loyalty, Zeus honored him with a special immortality turning
@@ -97,7 +97,7 @@ const Result = (props) => {
               pass between the mortal and immortal realms and create springs of
               water with his hooves. His wings clapped like thunder if he was
               angry.
-            </p>
+            </Typography>
           </StyledBox3>
         </StyledBox>
       );
@@ -106,7 +106,7 @@ const Result = (props) => {
 
   return (
     <StyledBox2>
-      <div>{displayResult()}</div>
+      <Box>{displayResult()}</Box>
       <Button variant='contained' onClick={props.resetQuiz}>
         Retake the quiz!
       </Button>
@@ -131,7 +131,7 @@ const StyledBox = styled(Box)`
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 
-  & h1 {
+  & h3 {
     background-color: rgba(200, 200, 200, 0.629);
     padding: 1rem;
     color: rgba(0, 20, 171, 1);

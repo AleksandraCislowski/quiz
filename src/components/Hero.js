@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { Box, Button, Typography } from "@mui/material";
 import p1 from "./pictures/p1.jpg";
@@ -36,4 +35,5 @@ const StyledBox = styled(Box)`
   background-size: cover;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  text-shadow: 2px 2px 4px black;
 `;
