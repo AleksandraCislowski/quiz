@@ -4,7 +4,7 @@ This project was created to learn more about React. It's a simple quiz applicati
 
 ## What you can do here?
 
-This quiz will match you a mythical creature that suits your character based on a few simple personality questions. Simply press the button with the answer that describe you the best, and see your results :)
+This quiz will match you a mythical creature that suits your character based on a few simple personality questions. Simply press the button with the answer that describe you the best and see your results :)
 
 
 ## Available Scripts
