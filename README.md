@@ -1,6 +1,6 @@
 # QuizME!
 
-This project was created to learn more about React. It's a simple quiz application which helped me to consolidate the knowledge I already have about React :)
+This project is a simple quiz application which helped me to consolidate the knowledge I already have about React :)
 
 ## What you can do here?
 
