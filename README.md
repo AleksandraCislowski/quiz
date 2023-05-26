@@ -1,6 +1,6 @@
 # QuizME!
 
-This project is a simple quiz application which helped me to consolidate the knowledge I already have about React :)
+This project is a quiz application which helped me to consolidate the knowledge I already have about React :)
 
 ## What you can do here?
 
