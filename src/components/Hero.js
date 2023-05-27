@@ -6,7 +6,7 @@ const Hero = (props) => {
   return (
     <StyledBox sx={{ backgroundImage: `url(${p1})` }}>
       <Typography variant='h2' color='primary' sx={{ m: 2 }}>
-        Welcome to QuizME!
+        Welcome to Magic QUIZ!
       </Typography>
       <Typography variant='subtitle1' color='white'>
         Answer the following questions to learn which mythical creature suit you
