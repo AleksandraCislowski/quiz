@@ -36,4 +36,5 @@ const StyledBox = styled(Box)`
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   text-shadow: 2px 2px 4px black;
+  text-align: center;
 `;
