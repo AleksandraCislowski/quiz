@@ -1,4 +1,4 @@
-# QuizME!
+# Magic QUIZ!
 
 This project is a quiz application which helped me to consolidate the knowledge I already have about React :)
 
