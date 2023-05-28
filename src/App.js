@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Hero from "./components/Hero";
-import { quiz } from "./components/quiz";
+import { quiz } from "./data/quiz";
 import Question from "./components/Question";
 import Result from "./components/Result";
 

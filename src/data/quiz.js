@@ -47,7 +47,6 @@ export const quiz = [
       { key: "D", text: "air" },
     ],
   },
-
   {
     question: "What food would you most likely eat??",
     choices: [
