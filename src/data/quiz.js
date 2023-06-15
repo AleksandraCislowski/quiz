@@ -48,12 +48,21 @@ export const quiz = [
     ],
   },
   {
-    question: "What food would you most likely eat??",
+    question: "What food would you most likely eat?",
     choices: [
       { key: "A", text: "some sweets" },
       { key: "B", text: "seafood" },
       { key: "C", text: "meat" },
       { key: "D", text: "give me some beer!" },
+    ],
+  },
+  {
+    question: "What jewelry would you choose? ",
+    choices: [
+      { key: "A", text: "a diamond tiara " },
+      { key: "B", text: "a string of pearls " },
+      { key: "C", text: "a ruby ring " },
+      { key: "D", text: "an emerald bracelets " },
     ],
   },
 ];
