@@ -64,5 +64,13 @@ export const quiz = [
       { key: "C", text: "a ruby ring " },
       { key: "D", text: "an emerald bracelets " },
     ],
+  },{
+    question: "How do you solve your problems?",
+    choices: [
+      { key: "A", text: "with sweet words " },
+      { key: "B", text: "I win people over  " },
+      { key: "C", text: "scorched earth policy " },
+      { key: "D", text: "I run away from them " },
+    ],
   },
 ];
