@@ -72,5 +72,13 @@ export const quiz = [
       { key: "C", text: "scorched earth policy " },
       { key: "D", text: "I run away from them " },
     ],
+  },{
+    question: "What is the greatest value to you? ",
+    choices: [
+      { key: "A", text: "purity" },
+      { key: "B", text: "family " },
+      { key: "C", text: "gold" },
+      { key: "D", text: "freedom" },
+    ],
   },
 ];
