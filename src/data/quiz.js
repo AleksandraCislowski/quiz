@@ -80,5 +80,13 @@ export const quiz = [
       { key: "C", text: "gold" },
       { key: "D", text: "freedom" },
     ],
+  },{
+    question: "What music do you mostly listen to?  ",
+    choices: [
+      { key: "A", text: "pop" },
+      { key: "B", text: "classical " },
+      { key: "C", text: "metal " },
+      { key: "D", text: "folk" },
+    ],
   },
 ];
