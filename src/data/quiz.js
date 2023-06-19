@@ -88,5 +88,13 @@ export const quiz = [
       { key: "C", text: "metal " },
       { key: "D", text: "folk" },
     ],
+  },{
+    question: "I could spend my holidays...",
+    choices: [
+      { key: "A", text: "by the lake" },
+      { key: "B", text: "by the sea" },
+      { key: "C", text: "in the mountains" },
+      { key: "D", text: "in the forest" },
+    ],
   },
 ];
