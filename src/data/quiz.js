@@ -96,5 +96,13 @@ export const quiz = [
       { key: "C", text: "in the mountains" },
       { key: "D", text: "in the forest" },
     ],
+  },{
+    question: "What kind of people do you attract? ",
+    choices: [
+      { key: "A", text: "friendly " },
+      { key: "B", text: "admirers " },
+      { key: "C", text: "enemies " },
+      { key: "D", text: "borrowers " },
+    ],
   },
 ];
