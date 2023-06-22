@@ -104,5 +104,13 @@ export const quiz = [
       { key: "C", text: "enemies " },
       { key: "D", text: "borrowers " },
     ],
+  },{
+    question: "The best form of entertainment for the weekend is...",
+    choices: [
+      { key: "A", text: "a magic show" },
+      { key: "B", text: "a swimming pool" },
+      { key: "C", text: "a barbecue" },
+      { key: "D", text: "a hike" },
+    ],
   },
 ];
