@@ -112,5 +112,13 @@ export const quiz = [
       { key: "C", text: "a barbecue" },
       { key: "D", text: "a hike" },
     ],
+  },{
+    question: "What art have you mastered the best? ",
+    choices: [
+      { key: "A", text: "hiding" },
+      { key: "B", text: "singing" },
+      { key: "C", text: "fighting" },
+      { key: "D", text: "playing instruments" },
+    ],
   },
 ];
