@@ -120,5 +120,13 @@ export const quiz = [
       { key: "C", text: "fighting" },
       { key: "D", text: "playing instruments" },
     ],
+  },,{
+    question: "For breakfast I eat... ",
+    choices: [
+      { key: "A", text: "pancakes with sprinkles " },
+      { key: "B", text: "overnight oatmeal" },
+      { key: "C", text: "spicy sausage " },
+      { key: "D", text: "salad" },
+    ],
   },
 ];
