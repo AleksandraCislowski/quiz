@@ -120,13 +120,21 @@ export const quiz = [
       { key: "C", text: "fighting" },
       { key: "D", text: "playing instruments" },
     ],
-  },,{
+  },{
     question: "For breakfast I eat... ",
     choices: [
       { key: "A", text: "pancakes with sprinkles " },
       { key: "B", text: "overnight oatmeal" },
       { key: "C", text: "spicy sausage " },
       { key: "D", text: "salad" },
+    ],
+  },{
+    question: "10.	If you could be a flavor, which one would you choose? ",
+    choices: [
+      { key: "A", text: "sweet " },
+      { key: "B", text: "salty " },
+      { key: "C", text: "bitter " },
+      { key: "D", text: "sour" },
     ],
   },
 ];
