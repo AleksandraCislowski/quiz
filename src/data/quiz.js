@@ -129,12 +129,20 @@ export const quiz = [
       { key: "D", text: "salad" },
     ],
   },{
-    question: "10.	If you could be a flavor, which one would you choose? ",
+    question: "If you could be a flavor, which one would you choose? ",
     choices: [
       { key: "A", text: "sweet " },
       { key: "B", text: "salty " },
       { key: "C", text: "bitter " },
       { key: "D", text: "sour" },
+    ],
+  },{
+    question: "What season do you like the most? ",
+    choices: [
+      { key: "A", text: "spring " },
+      { key: "B", text: "summer " },
+      { key: "C", text: "autumn " },
+      { key: "D", text: "winter " },
     ],
   },
 ];
